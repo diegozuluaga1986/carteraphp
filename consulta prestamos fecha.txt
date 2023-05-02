@@ -1,0 +1,3 @@
+select prestamos.num_prestamo, prestamos.num_cliente,  prestamos.fecha_inicio, prestamos.monto, prestamos.monto_final,  prestamos.cuota, prestamos.num_cuotas, prestamos.orden_ruta, prestamos.cod_cartera, prestamos.dia_abona,
+clientes.nombre from prestamos, clientes where prestamos.num_cliente=clientes.num_cliente
+and prestamos.cod_cartera='12' and prestamos.fecha_inicio='20151031'

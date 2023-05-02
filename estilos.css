@@ -1,0 +1,250 @@
+/* At-Rules */
+@charset "iso-8859-1";
+/*xxxxxxxxxxxxx pantalla login xxxxxxxxxxx*/
+html body {
+  background: #FFFFFF;
+  margin: 0 12px;
+  height: 100%;
+}
+
+#wrapper{  
+    border: 2px solid;  
+    min-height: 100%;     
+    height: auto !important;     
+    height: 100%;     
+    margin: 0 auto -50px; /* el magin-bottom es el valor negativo de     
+    la altura del footer */ 
+} 
+
+#page-wrap:after{
+width: 100%;
+height:150px;
+display:block;
+clear:both;
+}
+
+/*Iframe*/
+
+.iframe{
+  display:block; 
+  border-style: none;
+  width: 100%;
+  height: 825px;
+  margin-left: 0px; 
+  margin-right: 0px; 
+  margin-top: 6px; 
+  margin-bottom: 0px;
+}
+
+select {
+  width: 180px !important;
+}
+
+
+/*----------------------------*/
+
+.header{
+  background: #BDBFC3;
+  /*background: url(imagenes/164554231.jpg);*/
+  border: 1px solid;
+  height: 58px;
+  padding-top: 1px; 
+  text-align: center;
+  position: relative;
+}
+
+#subheader{
+  border: #353535 1px solid;
+  height: 30px;
+  font-family: arial, helvetica, sans-serif;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: -1px;
+  z-index: 2;
+}
+
+ul, ol{
+  list-style: none;
+  margin: 0px 0px 0px 0px !important;
+}
+
+.nav li {
+  background: url(imagenes/chrome.jpg);
+}
+
+.nav li a{
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px 5px 20px;
+}
+
+.nav li a:hover{
+  /*background: url(imagenes/11326544.jpg);*/
+  border: #000 1px solid;
+  border-radius: 20px 20px 20px 20px;
+  padding: 4px 0px 4px 20px;
+}
+
+.nav >li {  
+  float:left;
+  min-width: 20%;
+}
+
+
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 20%;
+}
+
+.nav li:hover > ul{
+  display: block;
+
+}
+
+.nav li ul li{
+  position: relative;
+}
+
+.nav li ul li ul{
+  right: -20%;
+  top:0;  
+}
+
+.header a{
+  position: absolute;
+  left:15px;
+  top: 15px;
+}
+
+.contenido{ 
+  border: none;
+  position: relative;
+  height: 100%;
+}
+#push {
+  height: 50px;
+}
+.pie {     
+  text-align: center;
+  padding: 30px 0;
+  border: 1px solid;
+  background-color: #007297;
+  line-height: 8px;
+  border: 1px solid;
+  height: 50px;
+}
+.pie p {
+  margin-bottom: 0;
+  color: #E4E4E4;
+}
+
+.pie a {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.pie a:hover {
+  color: #FBF96F;
+  letter-spacing: 1px;
+}
+/*.pie-links {
+  margin: 10px 0;
+}
+.pie-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.pie-links li:first-child {
+  padding-left: 0;
+}
+
+/* ------------------------ */
+
+.inicio {
+  background-image: url(imagenes/Black.png);
+  border: 1px solid;
+  border-color: #000;
+  border-radius: 20px;
+  color:#fff;
+  font-family: arial, verdana, georgia;
+  font-weight: bold;
+  height: 278px;
+  line-height: 2;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 20px;
+  position: relative;
+  top: 20px; 
+  left: 20px;
+  width: 179px;
+}
+.inicio label{
+  font-weight: bold;
+}
+.inicio h4{
+  color: #0B59E0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.inicio input[type="text"],
+input[type="password"]{
+  margin-right: 15px;
+  position: relative;
+  width: 145px;
+  height: 15px !important;
+}
+/* ----------Imagen como boton---- */
+.inicio input[type="image"]{
+  margin-top: 15px;
+  width: 64px;
+  height: 22px;
+}
+
+.inicio input[type="image"]:hover{
+  width: 66px;
+  height: 24px;
+}
+/* ----------otra Imagen como boton---- */
+.botom-im{
+  background: none;
+  border: none;
+  width: 80px;
+  height: 70px;
+}
+/*xxxxxxxxxxxxxx fin login xxxxxxxxx*/
+/*header*/
+
+
+/* estilo de la viñeta */
+.preload1 {background: url(six_0a.gif);}
+.preload2 {background: url(six_1a.gif);}
+
+/* Footer
+-------------------------------------------------- */
+
+
+#MenuAplicacion 
+{
+  margin-left: 10px;
+  margin-top: 2px; 
+  position: relative;
+  z-index: 2; 
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.buscar{
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+ 
+.hora{
+  float:left;
+}
+

@@ -1,0 +1,4 @@
+
+setlocale (LC_TIME,"spanish");
+$dia = mktime(0, 0, 0, date("m"), date("d")+1, date("Y"));
+$dia= strftime("%A, %d de %B de %Y", $dia);

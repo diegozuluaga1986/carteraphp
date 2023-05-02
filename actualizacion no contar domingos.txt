@@ -1,0 +1,9 @@
+
+
+$actual=date("Y-m-d");
+        $tiempo="select DATEDIFF('$actual','$f')";
+        $res_tiempo=mysql_query($tiempo,$conex);
+        $tie=@mysql_result($res_tiempo,0);
+
+        $inhabil=$tie - $cant - 1;
+        $mora=$mora - $inhabil;

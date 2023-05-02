@@ -1,0 +1,1 @@
+SELECT prestamos.num_prestamo, prestamos.cod_cartera, detalle_movimientos.num_prestamo, detalle_movimientos.fecha_registrada, detalle_movimientos.monto_abono from prestamos, detalle_movimientos  WHERE prestamos.cod_cartera='19' and detalle_movimientos.fecha_registrada BETWEEN '2021-05-20' and '2021-05-25' and prestamos.num_prestamo = detalle_movimientos.num_prestamo
