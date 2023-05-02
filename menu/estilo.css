@@ -1,0 +1,23 @@
+/* At-Rules */
+@charset "iso-8859-1";
+
+
+/* At-Rules */
+.titulo /* Contenedor para el titulo */
+{       
+ font-family: lucida sans;  
+ width: 98%;     
+ height: 60px;    
+ color:#000099; 
+ background: white;
+ padding-bottom: 10px;
+ padding-top: 5px;	 
+ border-bottom: 10px solid #000099; 
+}  
+
+
+
+.nombre
+{
+	width: 200px;
+}
